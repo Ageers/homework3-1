@@ -14,7 +14,7 @@ public class Main {
         System.out.println(res);
 
 
-*/
+
         //2 Сумма квадратов нечётных ≤ N Ввод: N. Вывести: 1² + 3² + 5² + ... ≤ N.
         int n = sc.nextInt();
         int res = 0;
@@ -22,5 +22,15 @@ public class Main {
             res += Math.pow(i, 2);
         }
         System.out.println(res);
+*/
+        //Факториал N (0 ≤ N ≤ 20) Ввод: N. Вывести: N!. Подсказка: используйте long
+        int n = sc.nextInt();
+        long factorial = 1;
+        for (int i = 1; i <= n; i++){
+            factorial *= i;
+
+        }
+        System.out.println(factorial);
+
     }
 }
